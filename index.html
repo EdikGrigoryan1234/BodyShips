@@ -11,7 +11,7 @@
 			<header class="header">
 				<div class="header__container">
 					<div class="logo">
-						<img src="icons/logo.png" class="logo__icon" alt="logo">
+						<img src="images/icons/logo.png" class="logo__icon" alt="logo">
 					</div>
 					<nav class="nav">
 						<ul class="menu">
@@ -20,25 +20,7 @@
 							<li class="menu__list"><a href class="menu__link">Новости</a></li>
 							<li class="menu__list"><a href class="menu__link">Контакты</a></li>
 						</ul>
-						<div class="burger__menu">
-
-							<input type="checkbox" id="burger-toggle">
-
-							<label for="burger-toggle" class="burger-container">
-								<div class="burger-line"></div>
-								<div class="burger-line"></div>
-								<div class="burger-line"></div>
-							</label>
-							<nav class="nav-menu">
-								<ul>
-									<li><a href="#home">Home</a></li>
-									<li><a href="#about">About</a></li>
-									<li><a href="#services">Services</a></li>
-									<li><a href="#portfolio">Portfolio</a></li>
-									<li><a href="#contact">Contact</a></li>
-								</ul>
-							</nav>
-						</div>
+						
 					</nav>
 				</div>
 			</header>
@@ -46,13 +28,30 @@
 				<section class="section1">
 					<div class="section1__container">
 						<div class="section1__logo">
-							<img class="hero__logo" src="icons/hero-logo@2x.png" alt="logo"/>
+							<picture>
+								<source media="(max-width:550px)"  srcset="./images/icons/hero-logo.png">
+								<img src="./images/icons/hero-logo@2x.png" class="hero__logo" alt="image">
+							</picture>
+							
 						</div>
 					</div>
 				</section>
 				<section class="section2">
 					<div class="section2__container">
-
+						<div class="section2__texts">
+							<h1 class="section2__title">ПЕРСОНАЛЬНЫЕ ТРЕНЕРА</h1>
+							<p class="section2__text">В нашей команде профессиональные тренеры, которые помогут вам достичь ваших фитнес-целей. Индивидуальный подход, мотивация и поддержка на каждом этапе вашего пути к успеху.</p>
+						</div>
+						<div class="section2__images">
+							<img src="images/trainers/card.jpg" alt="trainer" class="section2__img">
+							<img src="images/trainers/trainer-02.jpg" alt="trainer" class="section2__img">
+							<img src="images/trainers/trainer-03.jpg" alt="trainer" class="section2__img">
+							<img src="images/trainers/trainer-04.jpg" alt="trainer" class="section2__img">
+							<img src="images/trainers/trainer-05.jpg" alt="trainer" class="section2__img">
+							<img src="images/trainers/trainer-06.jpg" alt="trainer" class="section2__img">
+							<img src="images/trainers/trainer-07.jpg" alt="trainer" class="section2__img">
+							<img src="images/trainers/trainer-08.jpg" alt="trainer" class="section2__img">
+						</div>
 					</div>
 				</section>
 			</main>
